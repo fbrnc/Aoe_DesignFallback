@@ -37,8 +37,8 @@
 	<default>
 		<design>
 			<fallback>
-				<fallback><![CDATA[[auto]:[auto]
-[auto]:default
+				<fallback><![CDATA[[current]:[current]
+[current]:default
 base:default]]></fallback>
 			</fallback>
 		</design>
