@@ -16,7 +16,7 @@ class Aoe_DesignFallback_Model_Design_Package extends Mage_Core_Model_Design_Pac
         {
             return parent::_fallback($file, $params, $fallbackScheme);
         } else {
-		    return parent::_fallback($file, $params, $this->getFallbackScheme($params));
+            return parent::_fallback($file, $params, $this->getFallbackScheme($params));
         }
 	}
 
