@@ -21,8 +21,8 @@ class Aoe_DesignFallback_Model_Design_Package extends Mage_Core_Model_Design_Pac
 	 * @param array $defaults (optional). Needed for resolving default package and theme for duplicates eliminiation
 	 * @return array
 	 */
-	protected function getFallbackScheme(array $defaults=array()) {
-		$configuration = Mage::getStoreConfig('design/fallback/fallback', $this->getStore());
+	public function getFallbackScheme(array $defaults=array()) {
+		$configuration = Mage::getStoreConfig('design/fallback/fallback', $defaults['_store']);
 		$fallbackScheme = array();
 		foreach (explode("\n", $configuration) as $line) {
 			if (strpos($line, ':') === false) {
