@@ -12,7 +12,10 @@ class Aoe_DesignFallback_Model_Design_Package extends Mage_Core_Model_Design_Pac
 	 * @return string
 	 */
 	protected function _fallback($file, array &$params, array $fallbackScheme = array(array())) {
-        if (Mage::app()->getStore()->isAdmin())
+        /** @var $store Mage_Core_Model_Store */
+        $store = $params['_store'];
+
+        if ($store->isAdmin())
         {
             return parent::_fallback($file, $params, $fallbackScheme);
         } else {
