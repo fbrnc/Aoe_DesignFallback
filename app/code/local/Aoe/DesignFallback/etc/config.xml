@@ -19,6 +19,7 @@
 			<core>
 				<rewrite>
 					<design_package>Aoe_DesignFallback_Model_Design_Package</design_package>
+					<layout_update>Aoe_DesignFallback_Model_Layout_Update</layout_update>
 				</rewrite>
 			</core>
 		</models>
