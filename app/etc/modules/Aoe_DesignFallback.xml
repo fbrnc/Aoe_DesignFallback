@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<modules>
-		<Aoe_DesignFallback>
-			<codePool>local</codePool>
-			<active>true</active>
-		</Aoe_DesignFallback>
-	</modules>
-</config>
