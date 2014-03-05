@@ -32,7 +32,7 @@ class Aoe_DesignFallback_Model_Design_Package extends Mage_Core_Model_Design_Pac
 
 			$packageName = $this->resolveConfiguration($packageName);
 			if (!empty($packageName)) { // empty values will be evaluated to current package ...
-				if (!$this->designPackageExists($packageName, $this->getArea())) {
+				if (!$this->designPackageExists($packageName, $defaults['_area'])) {
 					// Mage::log(sprintf('Could not find package "%s". Using "%s" instead.', $packageName, Mage_Core_Model_Design_Package::DEFAULT_PACKAGE));
 					$packageName = Mage_Core_Model_Design_Package::DEFAULT_PACKAGE;
 				}
