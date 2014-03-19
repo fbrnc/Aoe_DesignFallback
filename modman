@@ -1,2 +1,2 @@
 app/etc/modules/*							app/etc/modules/
-app/code/local/Aoe/DesignFallback		app/code/local/Aoe/DesignFallback
+app/code/community/Aoe/DesignFallback		app/code/community/Aoe/DesignFallback

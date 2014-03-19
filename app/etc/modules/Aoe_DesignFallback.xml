@@ -2,7 +2,7 @@
 <config>
 	<modules>
 		<Aoe_DesignFallback>
-			<codePool>local</codePool>
+			<codePool>community</codePool>
 			<active>true</active>
 		</Aoe_DesignFallback>
 	</modules>
